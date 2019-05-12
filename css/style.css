@@ -1,0 +1,80 @@
+body{
+	display: flex;
+	min-height: 100vh;
+	flex-direction: column;
+}
+
+main{
+	flex: 1 0 auto;
+}
+
+.row{
+	margin-top: 3%;
+}
+
+.page-footer{
+	margin-top: 1%;
+}
+.slider img{
+	opacity: 0.5;
+}
+
+img#img-logo{
+	height: 66px;
+}
+
+#login-panel{
+	padding: 10% 0;
+}
+
+table#table-modul{
+	margin: 5% auto;
+	min-width: 100vh !important;
+	white-space: nowrap !important;
+}
+
+
+ul.pagination{
+	margin: 3% auto;
+}
+
+.card .card-image img.activator{
+	height: 240px;
+}
+
+.parallax-container{
+	height: 360px;
+}
+
+.parallax-container img{
+	max-height: 750px;
+}
+
+#form-area{
+	margin: 5% 0;
+}
+.form-register{
+	margin-bottom: -1%;
+}
+
+.input-field label{
+	color: #E0E0E0 !important;
+}
+.input-field input:focus + label {
+	color: #E0E0E0;
+}
+.input-field input:focus{
+	border-bottom: 1px solid #E0E0E0 !important;
+	box-shadow: 0 1px 0 0 #E0E0E0 !important;
+}
+.input-field input.valid{
+	border-bottom: 1px solid #E0E0E0 !important;
+	box-shadow: 0 1px 0 0 #E0E0E0 !important;
+}
+.input-field input.invalid{
+	border-bottom: 1px solid #EF5350 !important;
+	box-shadow: 0 1px 0 0 #EF5350 !important;
+}
+.input-field .prefix.active{
+	color: #E0E0E0 !important;
+}
